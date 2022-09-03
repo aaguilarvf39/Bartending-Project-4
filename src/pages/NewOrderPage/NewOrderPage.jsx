@@ -1,8 +1,5 @@
 export default function NewOrderPage() {
-
-
-
   return (
-    <h1>NewOrderPage</h1>
+    <h1>What are we trying today?</h1>
   );
 }

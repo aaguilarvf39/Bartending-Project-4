@@ -17,10 +17,10 @@ code {
   --white: #FFFFFF;
   --tan-1: #FBF9F6;
   --tan-2: #E7E2DD;
-  --tan-3: #E2D9D1;
-  --tan-4: #D3C1AE;
-  --orange: #F67F00;
-  --text-light: #968c84;
+  --tan-3: #bdc4ba;
+  --tan-4: rgb(86, 77, 77);
+  --orange: rebeccapurple;
+  --text-light: #87817c;
   --text-dark: #615954;
 }
 
@@ -140,7 +140,7 @@ button, a.button {
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  border: .1vmin solid var(--tan-2);
+  border: .1vmin solid var(--orange);
   border-radius: .5vmin;
   outline: none;
   cursor: pointer;
