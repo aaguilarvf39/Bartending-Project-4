@@ -6,7 +6,7 @@ import NewOrderPage from '../NewOrderPage/NewOrderPage';
 import MyCocktailPage from '../MyCocktailPage/MyCocktailPage';
 import NavBar from '../../components/NavBar/NavBar';
 import { DrinkIndex } from '../DrinkIndex/DrinkIndex';
-import { MysteryCocktailPage } from '../MysteryCocktailPage/MysteryCocktailPage';
+import MysteryCocktailPage from '../MysteryCocktailPage/MysteryCocktailPage';
 import './App.css';
 
 export default function App() {

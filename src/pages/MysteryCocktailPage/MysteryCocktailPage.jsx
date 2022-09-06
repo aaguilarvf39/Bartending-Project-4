@@ -1,15 +1,17 @@
-import {useState} from "react"
+import { useState } from "react";
 
-export function MysteryCocktailPage() {
-    const [mystery, setMystery] = useState([]);
+export default function MysteryCocktailPage() {
+  const [mystery, setMystery] = useState([]);
+  function randomDrink() {
     fetch("https://www.thecocktaildb.com/api/json/v1/1/random.php")
-        .then(response => response.json())
-        .then(data => {
-            setMystery(data.drinks)
-        });
-
-    return (
-        <div className="MysteryCocktailPage">
+      .then((response) => response.json())
+      .then((data) => {
+        setMystery(data.drinks);
+      });
+  }
+  return (
+    <div className="MysteryCocktailPage">
+      <button onClick={randomDrink}>Generate Mystery Cocktail</button>
             {mystery.map((m) => {
                 const {
                     idDrink,
@@ -53,3 +55,4 @@ export function MysteryCocktailPage() {
         </div>
     )
 }
+
