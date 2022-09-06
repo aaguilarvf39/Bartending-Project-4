@@ -10,9 +10,11 @@ export default function NavBar({ user, setUser }) {
 
   return (
     <nav>
-      <Link to='/orders'>My Cocktail List</Link>
+      <Link to='/mydrinks'>My Cocktail List</Link>
       &nbsp; | &nbsp;
       <Link to='/drinks'>All Cocktails</Link>
+      &nbsp; | &nbsp;
+      <Link to='/random'>Mystery Cocktails</Link>
       &nbsp; | &nbsp;
       Well Hello There {user.name}
       &nbsp; | &nbsp;

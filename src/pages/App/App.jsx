@@ -3,9 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
 import NewOrderPage from '../NewOrderPage/NewOrderPage';
-import OrderHistoryPage from '../OrderHistoryPage/OrderHistoryPage';
+import MyCocktailPage from '../MyCocktailPage/MyCocktailPage';
 import NavBar from '../../components/NavBar/NavBar';
 import { DrinkIndex } from '../DrinkIndex/DrinkIndex';
+import { MysteryCocktailPage } from '../MysteryCocktailPage/MysteryCocktailPage';
 import './App.css';
 
 export default function App() {
@@ -19,8 +20,9 @@ export default function App() {
           <Routes>
             {/* Route components in here */}
             <Route path='/orders/new' element={<NewOrderPage />} />
-            <Route path='/orders' element={<OrderHistoryPage />} />
+            <Route path='/mydrinks' element={<MyCocktailPage />} />
             <Route path='/drinks' element={<DrinkIndex />} />
+            <Route path='/random' element={<MysteryCocktailPage />} />
           </Routes>
         </>
         :
