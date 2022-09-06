@@ -29,7 +29,8 @@ export default function MysteryCocktailPage() {
                     strMeasure3,
                     strMeasure4,
                     strMeasure5,
-                    strMeasure6
+                    strMeasure6,
+                    strTags
     
                 } = m
             return (
@@ -48,6 +49,7 @@ export default function MysteryCocktailPage() {
                     <h3>{strMeasure4}</h3>
                     <h3>{strMeasure5}</h3>
                     <h3>{strMeasure6}</h3>
+                    <h4>{strTags}</h4>
                     <img src={strDrinkThumb}></img>
                 </div>
             )
