@@ -9,7 +9,7 @@ export function DrinkIndex() {
         });
 
     return (
-        <div className="drinkindex">
+        <div>
             {drink.map((d) => {
                 const {
                     idDrink,
@@ -18,9 +18,20 @@ export function DrinkIndex() {
 
                 } = d
             return (
-                <div key={idDrink}>
+                <div className="idDrink" key={idDrink}>
                     <h1>{strDrink}</h1>
                     <img src={strDrinkThumb}></img>
+                    <form>
+                        <input type="text" />
+                        <select name="rating">
+                            <option value="5">5</option>
+                            <option value="4">4</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                        <button type="submit">Add to saved cocktails</button>
+                    </form>
                 </div>
             )
         })}
