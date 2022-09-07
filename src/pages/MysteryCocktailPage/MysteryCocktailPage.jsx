@@ -51,6 +51,18 @@ export default function MysteryCocktailPage() {
                     <h3>{strMeasure6}</h3>
                     <h4>{strTags}</h4>
                     <img src={strDrinkThumb}></img>
+                    <form>
+                        <input type="text" placeholder="Comment" /> <br></br>
+                        <label>Rating</label> <br></br>
+                        <select name="rating">
+                            <option value="5">5</option>
+                            <option value="4">4</option>
+                            <option value="3">3</option>
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                        </select>
+                        <button type="submit">Add to saved cocktails</button>
+                    </form>
                 </div>
             )
         })}

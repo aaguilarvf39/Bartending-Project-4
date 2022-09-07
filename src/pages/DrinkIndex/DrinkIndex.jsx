@@ -22,7 +22,8 @@ export function DrinkIndex() {
                     <h1>{strDrink}</h1>
                     <img src={strDrinkThumb}></img>
                     <form>
-                        <input type="text" />
+                        <input type="text" placeholder="Comment" /> <br></br>
+                        <label>Rating</label> <br></br>
                         <select name="rating">
                             <option value="5">5</option>
                             <option value="4">4</option>
