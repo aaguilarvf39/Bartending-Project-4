@@ -1,10 +1,23 @@
+import './DrinksCard.css';
+
 export default function DrinksCard({drink}) {
     return (
-    <>
-        <div>{drink.strDrink}</div>
-            <div className="pictures" style={{backgroundImage: `url(${drink.strDrinkThumb})`}}></div>
-            <div>{drink.idDrink}</div>
-            <button type="submit">Add to saved cocktails</button>
-    </>
+    <div>
+       <form className="drinkcard">
+        <h1>What Are Ya Havin'?</h1> <br></br>
+        <h2>{drink.strDrink}</h2> <br></br>
+        <img src={drink.strDrinkThumb}></img> <br></br>
+        <input type="text" placeholder="Comment" />
+        <h3> Cocktail Rating</h3>
+        <select name="rating">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+        </select>
+        <button type="submit">Add to saved cocktails</button>
+          </form>
+    </div>
     )
 }

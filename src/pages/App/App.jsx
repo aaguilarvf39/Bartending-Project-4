@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { getUser } from '../../utilities/users-service';
 import AuthPage from '../AuthPage/AuthPage';
-import MyCocktailPage from '../MyCocktailPage/MyCocktailPage';
+import MyDrinksPage from '../MyDrinksPage/MyDrinksPage';
 import NavBar from '../../components/NavBar/NavBar';
 import DrinkIndex from '../DrinkIndex/DrinkIndex';
-import GetRandomCocktail from '../GetRandomCocktail/GetRandomCocktail'
+import GetRandomDrinkPage from '../GetRandomDrinkPage/GetRandomDrinkPage'
 import './App.css';
 
 export default function App() {
@@ -18,9 +18,9 @@ export default function App() {
           <NavBar user={user} setUser={setUser} />
           <Routes>
             {/* Route components in here */}
-            <Route path='/mydrinks' element={<MyCocktailPage />} />
+            <Route path='/mydrinks' element={<MyDrinksPage />} />
             <Route path='/drinks' element={<DrinkIndex />} />
-            <Route path='/random' element={<GetRandomCocktail />} />
+            <Route path='/random' element={<GetRandomDrinkPage />} />
           </Routes>
         </>
         :
