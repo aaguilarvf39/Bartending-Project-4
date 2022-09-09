@@ -4,21 +4,21 @@ import DrinksList from "../../components/DrinksList/DrinksList";
 
 export default function DrinkIndex() {
     const [drinks, setDrinks] = useState([]);
-console.log(drinks, "hello world");
+    console.log(drinks, "hello world");
     useEffect(() => {
         async function getAllDrinks() {
-            const allDrinks = await drinksApi.getAll();
-            setDrinks(allDrinks);
+            const drinks = await drinksApi.getAll();
+            setDrinks(drinks);
         }
         getAllDrinks();
     }, []);
 
     return (
-        <>
         <div>
-            <DrinksList drinks={drinks} />
+            {drinks.map(d =>
+                <DrinksList drinks={drinks} />
+            )}
         </div>
-        </>
     )
 }
 //     return (

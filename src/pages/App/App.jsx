@@ -22,7 +22,6 @@ export default function App() {
             <Route path='/drinks' element={<DrinkIndex />} />
             <Route path='/random' element={<MysteryCocktailPage />} />
           </Routes>
-          <h1>Welcome!</h1>
         </>
         :
         <AuthPage setUser={setUser} />
