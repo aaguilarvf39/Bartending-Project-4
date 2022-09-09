@@ -2,16 +2,15 @@ import { useState, useEffect } from "react"
 import * as drinksApi from "../../utilities/drinks-api"
 import DrinksList from "../../components/DrinksList/DrinksList";
 
-export function DrinkIndex() {
+export default function DrinkIndex() {
     const [drinks, setDrinks] = useState([]);
-
+console.log(drinks, "hello world");
     useEffect(() => {
         async function getAllDrinks() {
             const allDrinks = await drinksApi.getAll();
             setDrinks(allDrinks);
         }
         getAllDrinks();
-        console.log(getAllDrinks(), "hello");
     }, []);
 
     return (
@@ -21,7 +20,6 @@ export function DrinkIndex() {
         </div>
         </>
     )
-
 }
 //     return (
 //         <>
