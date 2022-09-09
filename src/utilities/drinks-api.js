@@ -9,3 +9,7 @@ export function getAll() {
   return sendRequest(`${BASE_URL}`);
 }
 
+export function getRandomCocktail() {
+  return sendRequest(`${BASE_URL}/random`)
+}
+

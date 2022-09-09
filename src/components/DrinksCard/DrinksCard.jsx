@@ -1,7 +1,10 @@
 export default function DrinksCard({drink}) {
     return (
     <>
-        <h1>hello</h1>
+        <div>{drink.strDrink}</div>
+            <div className="pictures" style={{backgroundImage: `url(${drink.strDrinkThumb})`}}></div>
+            <div>{drink.idDrink}</div>
+            <button type="submit">Add to saved cocktails</button>
     </>
     )
 }

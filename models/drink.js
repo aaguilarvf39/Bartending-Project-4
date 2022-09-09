@@ -27,6 +27,4 @@ const drinkSchema = new Schema({
     comments: [commentSchema],
 })
 
-
-
 module.exports = mongoose.model("Drink", drinkSchema);

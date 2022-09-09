@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import * as drinksApi from "../../utilities/drinks-api"
-import DrinksList from "../../components/DrinksList/DrinksList";
+import DrinksCard from "../../components/DrinksCard/DrinksCard";
 
 export default function DrinkIndex() {
     const [drinks, setDrinks] = useState([]);
@@ -15,22 +15,13 @@ export default function DrinkIndex() {
 
     return (
         <div>
-            {drinks.map(d =>
-                <DrinksList drinks={drinks} />
+            {drinks.map(d => 
+              <DrinksCard drink={d} />
             )}
         </div>
     )
 }
-//     return (
-//         <>
-//             {drinks.map((d) => {
-//                 const {
-//                     idDrink,
-//                     strDrink,
-//                     strDrinkThumb
 
-//                 } = d
-//             return (
 //                     <div className="idDrink">
 //                         <h1>{strDrink}</h1>
 //                         <img src={strDrinkThumb}></img>
@@ -46,9 +37,4 @@ export default function DrinkIndex() {
 //                             </select>
 //                             <button type="submit">Add to saved cocktails</button>
 //                         </form>
-//                     </div>
-//                 ) 
-//             },
-//         </>
-//     )
-// }
+//     

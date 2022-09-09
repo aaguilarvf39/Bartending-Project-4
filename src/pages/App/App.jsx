@@ -5,7 +5,7 @@ import AuthPage from '../AuthPage/AuthPage';
 import MyCocktailPage from '../MyCocktailPage/MyCocktailPage';
 import NavBar from '../../components/NavBar/NavBar';
 import DrinkIndex from '../DrinkIndex/DrinkIndex';
-import MysteryCocktailPage from '../MysteryCocktailPage/MysteryCocktailPage';
+import GetRandomCocktail from '../GetRandomCocktail/GetRandomCocktail'
 import './App.css';
 
 export default function App() {
@@ -20,7 +20,7 @@ export default function App() {
             {/* Route components in here */}
             <Route path='/mydrinks' element={<MyCocktailPage />} />
             <Route path='/drinks' element={<DrinkIndex />} />
-            <Route path='/random' element={<MysteryCocktailPage />} />
+            <Route path='/random' element={<GetRandomCocktail />} />
           </Routes>
         </>
         :
