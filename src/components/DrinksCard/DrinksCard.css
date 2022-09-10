@@ -3,10 +3,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0.9vmin solid black;
-    border-radius: 50px;
+    border: 0.9vmin solid rgb(99, 97, 97);
+    border-radius: 60px;
     margin: 3vmin 0;
     padding: 5vmin;
     overflow-y: scroll;
-    color:rgb(10, 82, 73)
+    color: rebeccapurple;
+    background-color: rgb(111, 110, 110);
+    background-image: url("https://imgur.com/VRHFVoY.gif");
+    background-repeat: no-repeat;
+    width: 200vh;
+}
+
+.heading {
+    color: rebeccapurple;
+    text-shadow: 0 0 1px #ffffff, 0 0 2px #d17c06;
+    text-decoration: underline;
+    font-size: 40px;
 }

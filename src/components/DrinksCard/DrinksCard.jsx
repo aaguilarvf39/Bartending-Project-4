@@ -4,12 +4,12 @@ export default function DrinksCard({drink}) {
     return (
         
     <div>
-        <h1>What Are Ya Havin'?</h1> <br></br>
+        <h1 className='heading'>What Are Ya Havin'?</h1> <br></br>
        <form className="drinkcard">
-        <h2>{drink.strDrink}</h2> <br></br>
+        <h1>{drink.strDrink}</h1>
         <img src={drink.strDrinkThumb}></img> <br></br>
         <input type="text" placeholder="Comment" />
-        <h3> Cocktail Rating</h3>
+        <h2> Cocktail Rating</h2>
         <select name="rating">
             <option value="5">5</option>
             <option value="4">4</option>

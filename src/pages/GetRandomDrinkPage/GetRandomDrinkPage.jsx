@@ -1,6 +1,7 @@
 import RandomDrinkCard from "../../components/RandomDrinksCard/RandomDrinksCard";
 import * as drinksApi from "../../utilities/drinks-api"
 import { useState } from "react"
+import './GetRandomDrinkPage.css'
 
 
 export default function GetRandomDrinkPage() {
@@ -13,11 +14,11 @@ export default function GetRandomDrinkPage() {
       }
       
       return (
-         <>
+         <div className="random">
          <button onClick={getRandomCocktail}>Generate Mystery Cocktail</button>
           {randomDrink.map((d) => (
            <RandomDrinkCard drink={d} />
          ))}
-    </>
+    </div>
  )
 }
