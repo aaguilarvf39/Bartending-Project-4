@@ -1,5 +1,10 @@
+import "./MyDrinksPage.css"
 
-export default function MyCocktailPage() {
+export default function MyDrinksPage() {
 
-  return <h1>My Cocktails</h1>;
+  return (
+   <div className="mydrinks">
+    <h1 className="mycocktail">My Cocktails</h1>
+   </div>
+  )
 }

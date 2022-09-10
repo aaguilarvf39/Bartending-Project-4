@@ -2,9 +2,10 @@ import './DrinksCard.css';
 
 export default function DrinksCard({drink}) {
     return (
+        
     <div>
-       <form className="drinkcard">
         <h1>What Are Ya Havin'?</h1> <br></br>
+       <form className="drinkcard">
         <h2>{drink.strDrink}</h2> <br></br>
         <img src={drink.strDrinkThumb}></img> <br></br>
         <input type="text" placeholder="Comment" />
