@@ -2,7 +2,7 @@
     background-image: url("https://imgur.com/YjbDNr2.jpg");
     background-size: cover;
     height: 160vh;
-    margin-top: 30px;
+    margin-top: 50px;
     border-radius: 50px;
 }
 
@@ -10,6 +10,7 @@
     font-size: xxx-large;
     text-decoration: underline;
     color: rebeccapurple;
-    text-shadow: 0 0 3px #110a00, 0 0 5px #f5f2f1;
+    text-shadow: 0 0 4px #000000, 0 0 9px #d17c06;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
 }

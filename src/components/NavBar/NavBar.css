@@ -2,11 +2,11 @@
     background-image: url("https://imgur.com/FtNKTvD.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: whitesmoke;
-    height: 90px;
-    border-radius: 22px;
+    background-color: orange;
+    height: 85px;
+    border-radius: 20px;
     border: 4px solid rebeccapurple;
-    font-size: 23px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -11,13 +11,13 @@ export default function NavBar({ user, setUser }) {
 
   return (
     <nav className="navbar" style={{color:"black"}}>
-      <Link style={{color:"orange"}} to='/mydrinks'>My Cocktail List</Link>
+      <Link style={{color:"black"}} to='/mydrinks'>My Cocktail List</Link>
       &nbsp; | &nbsp;
-      <Link style={{color:"black"}} to='/drinks'>All Cocktails</Link>
+      <Link style={{color:"rebeccapurple"}} to='/drinks'>All Cocktails</Link>
       &nbsp; | &nbsp;
-      <Link style={{color:"purple"}} to='/random'>Mystery Cocktails</Link>
+      <Link style={{color:"black"}} to='/random'>Mystery Cocktails</Link>
       &nbsp; | &nbsp;
-      <span style={{color:"orange"}}>Buenos Dias, {user.name}</span>
+      <span style={{color:"rebeccapurple"}}>Buenos Dias, {user.name}</span>
       &nbsp; | &nbsp;
       <Link style={{color:"black"}} to='' onClick={handleLogOut}>Log Out</Link>
     </nav>
