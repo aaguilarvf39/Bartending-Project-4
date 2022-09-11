@@ -1,24 +1,21 @@
 import RandomDrinkCard from "../../components/RandomDrinksCard/RandomDrinksCard";
 import * as drinksApi from "../../utilities/drinks-api"
 import { useState } from "react"
-import './GetRandomDrinkPage.css'
+import './RandomDrink.css'
 
 
-export default function GetRandomDrinkPage() {
-   const [randomDrink, setRandomDrink] = useState([])
+export default function RandomDrink() {
+   const [randomDrink, setRandomDrink] = useState(null)
       async function getRandomCocktail() {
-         const randomCocktail = drinksApi.getRandomCocktail();
+         const randomCocktail = await drinksApi.getRandomCocktail();
          setRandomDrink(randomCocktail)
          console.log(randomCocktail, "hi")
-         if (!randomCocktail) return null;
       }
-      
+      console.log(randomDrink)
       return (
          <div className="random">
          <button onClick={getRandomCocktail}>Generate Mystery Cocktail</button>
-          {randomDrink.map((d) => (
-           <RandomDrinkCard drink={d} />
-         ))}
+           <RandomDrinkCard drink={randomDrink} />
     </div>
  )
 }

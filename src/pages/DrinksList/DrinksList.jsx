@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import * as drinksApi from "../../utilities/drinks-api"
 import DrinksCard from "../../components/DrinksCard/DrinksCard";
 
-export default function DrinkIndex() {
+export default function DrinksList() {
     const [drinks, setDrinks] = useState([]);
     useEffect(() => {
         async function getAllDrinks() {
@@ -14,8 +14,8 @@ export default function DrinkIndex() {
 
     return (
         <div>
-            {drinks.map(d => 
-              <DrinksCard drink={d} />
+            {drinks.map((d,i) => 
+              <DrinksCard key={i} drink={d} />
             )}
         </div>
     )
