@@ -29,18 +29,18 @@ export default function DrinksDetailPage() {
     if (!drink) return null;
     return (
         <>
-        <h1>hello</h1>
             <div>
-                <h2>{drink.strDrink}</h2>
-                <img src={drink.strDrinkThumb}></img>
+                <h1>{drink.strDrink}</h1>
+                <img src={drink.strDrinkThumb} alt={drink.strDrink} height="300" width="300"></img>
+                <br /><br />
                 <h2>Drink Details</h2>
                 <ul>
                     {drink.ingredients.map(i => <li key={i}>{i}</li>)}
                 </ul>
-                <h3>{drink.instructions}</h3>
+                <h3>{drink.strInstructions}</h3>
             </div>
-            {/* <CommentForm handleAddComment={handleAddComment} />
-            <CommentCard handleDeleteComment={handleDeleteComment} drink={drink} /> */}
+            <CommentForm handleAddComment={handleAddComment} />
+            <CommentCard handleDeleteComment={handleDeleteComment} drink={drink} />
         </>
     )
 }

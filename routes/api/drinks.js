@@ -5,7 +5,7 @@ const ensureLoggedIn = require('../../config/ensureLoggedIn');
 
 
 router.get('/', drinksCtrl.getDrinks);
-router.get('/:id', drinksCtrl.show);
 router.get('/random', drinksCtrl.randomCocktail);
+router.get('/:id', drinksCtrl.show);
 
 module.exports = router;

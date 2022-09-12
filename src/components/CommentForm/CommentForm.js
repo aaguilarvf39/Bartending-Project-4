@@ -11,13 +11,6 @@ export default function CommentForm({handleAddComment}) {
         setNewComment('');
         setRating('5');
     }
-    function handleChange(evt) {
-        setNewComment({...newComment, [evt.target.name] : evt.target.value});
-
-    }
-    function handleRating(evt) {
-        setRating({...rating, [evt.target.name] : evt.target.value});
-    }
 
     return (
         <section>
@@ -25,14 +18,17 @@ export default function CommentForm({handleAddComment}) {
             onSubmit={handleSubmit}
             >
                 <h2>Comments</h2>
-                <textarea 
-                onChange={handleChange}
+                <input 
+                name="content"
+                onChange={(evt) => setNewComment(evt.target.value)}
                 value={newComment}
-                placeholder="Comments"></textarea>
+                type="text"
+                placeholder="Comments" />
                 <h2>Rating</h2>
                 <select
+                name="rating"
                 value={rating}
-                onChange={handleRating}>
+                onChange={(evt) => setRating(evt.target.value)}>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>

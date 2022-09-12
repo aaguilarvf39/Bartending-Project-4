@@ -2,10 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const commentSchema = new Schema({
-    content: {
-      type: String,
-      match: /.{5,}/
-    },
+    comment: {type: String},
     rating: {
       type: Number,
       min: 1,
