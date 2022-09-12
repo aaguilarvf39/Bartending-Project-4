@@ -4,7 +4,6 @@ export default function DrinksCard({drink}) {
     return (
         
     <div>
-        <h1 className='heading'>What Are Ya Havin'?</h1> <br></br>
        <form className="drinkcard">
         <h1>{drink.strDrink}</h1>
         <img src={drink.strDrinkThumb}></img> <br></br>
@@ -18,7 +17,7 @@ export default function DrinksCard({drink}) {
             <option value="1">1</option>
         </select>
         <button type="submit">Add to saved cocktails</button>
-          </form>
+      </form>
     </div>
     )
 }

@@ -3,21 +3,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0.9vmin solid rgb(99, 97, 97);
+    height: auto;
+    width: auto;
+    border: 0.9vmin solid orange;
     border-radius: 60px;
-    margin: 3vmin 0;
-    padding: 5vmin;
+    margin: 9vmin 0;
+    padding: 4vmin;
     overflow-y: scroll;
     color: rebeccapurple;
-    background-color: rgb(111, 110, 110);
-    background-image: url("https://imgur.com/VRHFVoY.gif");
-    background-repeat: no-repeat;
-    width: 200vh;
+    background-color: rgb(145, 143, 143, 0.8);
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #6106d1;
 }
 
 .heading {
     color: rebeccapurple;
-    text-shadow: 0 0 1px #ffffff, 0 0 2px #d17c06;
+    text-shadow: 0 0 9px #c98804, 0 0 5px #ebeae8;
     text-decoration: underline;
     font-size: 40px;
 }

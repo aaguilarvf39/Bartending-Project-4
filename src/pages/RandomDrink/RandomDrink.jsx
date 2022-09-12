@@ -9,13 +9,11 @@ export default function RandomDrink() {
       async function getRandomCocktail() {
          const randomCocktail = await drinksApi.getRandomCocktail();
          setRandomDrink(randomCocktail)
-         console.log(randomCocktail, "hi")
       }
-      console.log(randomDrink)
       return (
-         <div className="random">
-         <button onClick={getRandomCocktail}>Generate Mystery Cocktail</button>
+        <div className="random">
+         <button className="gmc" onClick={getRandomCocktail}>Generate Mystery Cocktail</button>
            <RandomDrinkCard drink={randomDrink} />
-    </div>
+        </div>
  )
 }

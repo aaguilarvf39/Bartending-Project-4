@@ -1,3 +1,23 @@
 .random {
-    background-image: url("https://imgur.com/f5ULHU7.jpg");
+    background-image: url("https://imgur.com/UCXKXYA.gif");
+    background-size: cover;
+    background-position: bottom;
+    text-shadow: 0 0 10px #ffffff, 0 0 2px #d17c06;
+    margin-top: 80px;
+    margin: 100px;
+}
+
+.generate {
+    color:white;
+    text-shadow: 0 0 10px #090909, 0 0 20px #6106d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmc {
+    margin-top: 70px;
+    text-shadow: 0 0 10px #09ec3a, 0 0 2px #0f2b47;
+    font-size: larger;
 }
