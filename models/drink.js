@@ -12,9 +12,8 @@ const commentSchema = new Schema({
       max: 5,
       default: 5
     },
-    user: {type: Schema.Types.ObjectId, ref: 'User'},
-    userName: String,
-    userAvatar: String
+    users: [{type: Schema.Types.ObjectId, ref: 'User'}],
+    userName: {type: String}
   }, {
     timestamps: true
   });
@@ -25,6 +24,10 @@ const drinkSchema = new Schema({
     idDrink: Number,
     StrInstructions: String,
     comments: [commentSchema],
+    ingredients: [{type: String}],
+    users: [{type: Schema.Types.ObjectId, ref: 'User'}],
+  }, {
+    timestamps: true,
 })
 
 module.exports = mongoose.model("Drink", drinkSchema);

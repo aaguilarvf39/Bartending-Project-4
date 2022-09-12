@@ -3,21 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
-    width: auto;
     border: 0.9vmin solid orange;
     border-radius: 60px;
-    margin: 9vmin 0;
-    padding: 4vmin;
-    overflow-y: scroll;
+    margin: 9vmin;
+    padding: 3vmin;
     color: rebeccapurple;
     background-color: rgb(145, 143, 143, 0.8);
     text-shadow: 0 0 10px #ffffff, 0 0 20px #6106d1;
 }
 
 .heading {
-    color: rebeccapurple;
-    text-shadow: 0 0 9px #c98804, 0 0 5px #ebeae8;
+    color: rgb(11, 7, 1);
+    text-shadow: 0 0 9px #f9f8f5, 0 0 10px #753b8b;
     text-decoration: underline;
     font-size: 40px;
 }

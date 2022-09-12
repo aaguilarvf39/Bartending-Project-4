@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react"
+import { useNavigate } from "react-router-dom";
 import * as drinksApi from "../../utilities/drinks-api"
 import DrinksCard from "../../components/DrinksCard/DrinksCard";
 
 export default function DrinksList() {
     const [drinks, setDrinks] = useState([]);
+    const navigate = useNavigate();
+
     useEffect(() => {
         async function getAllDrinks() {
             const drinks = await drinksApi.getAll();
@@ -12,12 +15,18 @@ export default function DrinksList() {
         getAllDrinks();
     }, []);
 
+    function handleDetail(idDrink) {
+        navigate(`/detail/${idDrink}`);
+     }
+
     return (
         <div>
-            <h1 className='heading'>What Are Ya Havin'?</h1>
+            <h1 className='heading'>Alphabetized Cocktail List</h1>
             {drinks.map((d,i) => 
-              <DrinksCard key={i} drink={d} />
-            )}
+              <><DrinksCard idDrink={d.idDrink} key={i} drink={d} /><>
+                    <button onClick={() => handleDetail(d.idDrink)}>Get Drink Details</button>
+                </></>
+              )}
         </div>
     )
 }

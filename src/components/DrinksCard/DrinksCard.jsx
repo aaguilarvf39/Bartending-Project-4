@@ -3,7 +3,6 @@ import './DrinksCard.css';
 export default function DrinksCard({drink}) {
     return (
         
-    <div>
        <form className="drinkcard">
         <h1>{drink.strDrink}</h1>
         <img src={drink.strDrinkThumb}></img> <br></br>
@@ -18,6 +17,5 @@ export default function DrinksCard({drink}) {
         </select>
         <button type="submit">Add to saved cocktails</button>
       </form>
-    </div>
     )
 }

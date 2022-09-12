@@ -14,7 +14,6 @@ export default function RandomDrinkCard({ drink }) {
             <h3>{drink.strIngredient5} - {drink.strMeasure5}</h3>
             <h3>{drink.strIngredient6} - {drink.strMeasure6}</h3> <br></br>
             <h2>{drink.strInstructions}</h2>
-            <h4>{drink.strTags}</h4>
             <img src={drink.strDrinkThumb}></img>
             <input type="text" placeholder="Comment" />
             <h2>Rating</h2>

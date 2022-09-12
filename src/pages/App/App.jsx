@@ -6,6 +6,7 @@ import MyDrinksPage from '../MyDrinksPage/MyDrinksPage';
 import NavBar from '../../components/NavBar/NavBar';
 import DrinksList from '../DrinksList/DrinksList';
 import RandomDrink from '../RandomDrink/RandomDrink';
+import DrinksDetailPage from '../DrinksDetailPage/DrinksDetailPage';
 import Home from '../Home/Home';
 import './App.css';
 
@@ -23,6 +24,7 @@ export default function App() {
             <Route path='/mydrinks' element={<MyDrinksPage />} />
             <Route path='/drinks' element={<DrinksList />} />
             <Route path='/random' element={<RandomDrink />} />
+            <Route path='/detail/:idDrink' element={<DrinksDetailPage />} />
           </Routes>
         </>
         :

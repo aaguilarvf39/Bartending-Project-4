@@ -13,3 +13,7 @@ export function getRandomCocktail() {
   return sendRequest(`${BASE_URL}/random`)
 }
 
+export function getDrinkId(id) {
+  return sendRequest(`${BASE_URL}/${id}`)
+}
+
