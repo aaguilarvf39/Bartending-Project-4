@@ -5,6 +5,7 @@
     text-shadow: 0 0 10px #ffffff, 0 0 2px #d17c06;
     margin-top: 80px;
     margin: 100px;
+    text-decoration: underline;
 }
 
 .generate {
