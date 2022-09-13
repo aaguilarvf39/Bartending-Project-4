@@ -1,6 +1,6 @@
 <div align="center">
 <h1>
-:tropical_drink: Cocktails Galore! :tumbler_glass:
+:tumbler_glass: Cocktails Galore! :tropical_drink:
 </h1>
 
 <h2>Jesus Aguilar</h2>
@@ -10,7 +10,7 @@
   src="https://img.shields.io/badge/-jesusaguilarvf39-blue?style=flat&logo=Linkedin&logoColor=white">
 </a>
 
-<a href="https://www.aaguilarvf39@gmail.com" target="_blank">
+<a href="https://www.gmail.com/aaguilarvf39" target="_blank">
 <img 
   src="https://img.shields.io/badge/-aaguilarvf39-Gmail-D14836?style=badge&logo=gmail&logoColor=white">
 </a>>
