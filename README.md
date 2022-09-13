@@ -3,8 +3,6 @@
 :tropical_drink: Cocktails Galore! :tumbler_glass:
 </h1>
 
-<h3>https://bartender-cocktails.herokuapp.com/</h3>
-
 <h4>Jesus Aguilar</h4>
 
 <a href="https://www.linkedin.com/in/jesusaguilarvf39/" target="_blank">
@@ -21,6 +19,7 @@
 
 <p>
 As a former bartender I wanted to once again provide a service that allows people (over the age of 21) to enjoy discovering new cocktails.
+As a logged in user you'll be able to see see a wide variety of cockatils and comment/rate whichever ones you like. We also have a random cocktail generator that will render a new cocktail on each click!
 </p>
 
 </div>
@@ -28,27 +27,44 @@ As a former bartender I wanted to once again provide a service that allows peopl
 ## :zap: Screenshots :zap:
 | Description | Screenshot |
 |------------ | ------------|
-| Home Page | <img src="" width="700"> |
-| Comments| <img src="" width="700"> |
-| Random Drink Generator | <img src="" width="700"> |
+| Home Page | <img src="https://imgur.com/mLkFrJ3.jpg" width="700"> |
+| Cocktail List| <img src="https://imgur.com/KfcQf89.jpg" width="700"> |
+| Random Cocktail Generator | <img src="https://imgur.com/ak7O9nW.jpg" width="700"> |
 
 ## :battery: Built With:
 ![MongoDB](https://img.shields.io/badge/-MongoDB-333?style=flat&logo=mongodb)
 ![Express](https://img.shields.io/badge/-Express-333?style=flat&logo=express)
+![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)
 ![Node](https://img.shields.io/badge/-Node.js-333?style=flat&logo=node.js)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript) 
 ![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
 ![Heroku](https://img.shields.io/badge/-Heroku-333?style=flat&logo=heroku)
 ![Github](https://img.shields.io/badge/-GitHub-333?style=flat&logo=github)
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
 ![VSCode](https://img.shields.io/badge/-VS_Code-333?style=flat&logo=visualstudio)
+![JWT](https://img.shields.io/badge/-JSON_Web_Tokens-05122A?style=flat&logo=jsonwebtokens)
+![Trello](https://img.shields.io/badge/-Trello-05122A?style=flat&logo=trello)
+![Canva](https://img.shields.io/badge/-Canva-05122A?style=flat&logo=canva)
 
-<h5>Trello
-https://trello.com/b/vxanfXtV/unit-4-bartending
-</h5>
+<details>
+    <h3>:link: Links</h3>
+<details>
+    <summary>Deployed Heroku</summary>
+    <a href="https://bartender-cocktails.herokuapp.com/">https://bartender-cocktails.herokuapp.com/</a>
+</details>
+<details>
+    <summary>Trello</summary>
+    <a href="https://trello.com/b/vxanfXtV/unit-4-bartending">https://trello.com/b/vxanfXtV/unit-4-bartending</a>
+</details>
 
 ## :gear: Next Steps
 ### Future Implementations
--  Implement update and edit features.
--  
--  
+-  [ ] Implement update and edit features.
+-  [ ] Create User Profiles
+-  [ ] ?
+
+## :glasses: Acknowledgements
+- Mario Recinos
+- Jim Clark
+- SEI 621 Classmates
