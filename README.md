@@ -12,7 +12,7 @@
 
 <a href="https://www.gmail.com/aaguilarvf39" target="_blank">
 <img 
-  src="https://img.shields.io/badge/-aaguilarvf39-Gmail-D14836?style=badge&logo=gmail&logoColor=white">
+  src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
 </a>>
 
  <h1>:cocktail: Description</h1>
