@@ -4,6 +4,7 @@ import * as drinksAPI from '../../utilities/drinks-api';
 import * as commentsAPI from '../../utilities/comments-api';
 import CommentForm from "../../components/CommentForm/CommentForm";
 import CommentCard from "../../components/CommentCard/CommentCard";
+import './DrinksDetailPage.css'
 
 export default function DrinksDetailPage() {
     const [drink, setDrink] = useState(null);
@@ -29,14 +30,14 @@ export default function DrinksDetailPage() {
     if (!drink) return null;
     return (
         <>
-            <div>
+            <div className="drinkdetail">
                 <h1>{drink.strDrink}</h1>
                 <img src={drink.strDrinkThumb} alt={drink.strDrink} height="300" width="300"></img>
-                <br /><br />
+                <br />
                 <h2>Drink Details</h2>
-                <ul>
+                <h4>
                     {drink.ingredients.map(i => <li key={i}>{i}</li>)}
-                </ul>
+                </h4>
                 <h3>{drink.strInstructions}</h3>
             </div>
             <CommentForm handleAddComment={handleAddComment} />

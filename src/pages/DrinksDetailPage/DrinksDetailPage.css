@@ -1,0 +1,27 @@
+.drinkdetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.9vmin solid black;
+    border-radius: 70px;
+    margin: 9vmin;
+    padding: 3vmin;
+    color: black;
+    background-color: rgb(145, 143, 143, 0.7);
+    text-shadow: 0 0 10px #ffffff, 0 0 15px #6106d1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.9vmin solid black;
+    border-radius: 70px;
+    margin: 9vmin;
+    padding: 3vmin;
+    color: black;
+    background-color: rgb(145, 143, 143, 0.7);
+    text-shadow: 0 0 10px #ffffff, 0 0 15px #6106d1;
+}

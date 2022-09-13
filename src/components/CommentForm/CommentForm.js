@@ -14,7 +14,7 @@ export default function CommentForm({handleAddComment}) {
 
     return (
         <section>
-            <form
+            <form className='form'
             onSubmit={handleSubmit}
             >
                 <h2>Comments</h2>

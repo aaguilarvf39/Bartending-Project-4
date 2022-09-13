@@ -23,8 +23,7 @@ export default function DrinksList() {
         <div>
             <h1 className='heading'>Alphabetized Cocktail List</h1>
             {drinks.map((d,i) => 
-              <><DrinksCard idDrink={d.idDrink} key={i} drink={d} /><>
-                    <button onClick={() => handleDetail(d.idDrink)}>Get Drink Details</button>
+              <><DrinksCard handleDetail={handleDetail} idDrink={d.idDrink} key={i} drink={d} /><>
                 </></>
               )}
         </div>

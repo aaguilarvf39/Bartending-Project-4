@@ -14,7 +14,7 @@ export default function RandomDrinkCard({ drink }) {
             <h3>{drink.strIngredient5} - {drink.strMeasure5}</h3>
             <h3>{drink.strIngredient6} - {drink.strMeasure6}</h3> <br></br>
             <h2>{drink.strInstructions}</h2>
-            <img src={drink.strDrinkThumb}></img>
+            <img src={drink.strDrinkThumb} height="500" width="500"></img>
             <input type="text" placeholder="Comment" />
             <h2>Rating</h2>
             <select name="rating">
@@ -25,6 +25,7 @@ export default function RandomDrinkCard({ drink }) {
                 <option value="1">1</option>
             </select>
             <button className="gmc" type="submit">Add to saved cocktails</button>
+            <br /><br />
           </form>
         </div>
     )
