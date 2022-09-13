@@ -10,11 +10,6 @@
   src="https://img.shields.io/badge/-jesusaguilarvf39-blue?style=flat&logo=Linkedin&logoColor=white">
 </a>
 
-<a href="https://aaguilarvf39@gmail.com" target="_blank">
-<img 
-  src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
  <h1>:cocktail: Description</h1>
 
 <p>
