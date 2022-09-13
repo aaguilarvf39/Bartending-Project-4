@@ -10,7 +10,7 @@
   src="https://img.shields.io/badge/-jesusaguilarvf39-blue?style=flat&logo=Linkedin&logoColor=white">
 </a>
 
-<a href="https://aaguilarvf39@gmail.com" target="_blank">
+<a href="https://www.aaguilarvf39@gmail.com" target="_blank">
 <img 
   src="https://img.shields.io/badge/-aaguilarvf39-Gmail-D14836?style=badge&logo=gmail&logoColor=white">
 </a>>
