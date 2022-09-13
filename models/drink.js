@@ -9,7 +9,7 @@ const commentSchema = new Schema({
       max: 5,
       default: 5
     },
-    users: [{type: Schema.Types.ObjectId, ref: 'User'}],
+    user: {type: Schema.Types.ObjectId, ref: 'User'},
     userName: {type: String}
   }, {
     timestamps: true
@@ -22,7 +22,7 @@ const drinkSchema = new Schema({
     StrInstructions: String,
     comments: [commentSchema],
     ingredients: [{type: String}],
-    users: [{type: Schema.Types.ObjectId, ref: 'User'}],
+    user: [{type: Schema.Types.ObjectId, ref: 'User'}],
   }, {
     timestamps: true,
 })

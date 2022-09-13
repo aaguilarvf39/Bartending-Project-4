@@ -13,7 +13,7 @@
 }
 
 .title span {
-    background-color: rgba(197, 195, 197, 0.721);
+    background-color: rgba(197, 195, 197, 0.9);
     text-shadow: 0 0 10px #ffffff, 0 0 15px #f5f4f7;
 }
 
@@ -33,6 +33,6 @@
 }
 
 .gts span {
-    background-color: rgba(197, 195, 197, 0.721);
+    background-color: rgba(197, 195, 197, 0.9);
     text-shadow: 0 0 10px #ffffff, 0 0 15px #f7f6f8;
 }

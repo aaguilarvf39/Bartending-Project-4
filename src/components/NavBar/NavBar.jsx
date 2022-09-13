@@ -19,7 +19,7 @@ export default function NavBar({ user, setUser }) {
       &nbsp; | &nbsp;
       <Link style={{color:"black"}} to='/random'>Mystery Cocktails</Link>
       &nbsp; | &nbsp;
-      <span style={{color:"rebeccapurple"}}>Buenos Dias, {user.name}</span>
+      <span style={{color:"rebeccapurple"}}>Hello there {user.name}</span>
       &nbsp; | &nbsp;
       <Link style={{color:"black"}} to='' onClick={handleLogOut}>Log Out</Link>
     </nav>

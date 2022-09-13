@@ -6,7 +6,7 @@ import CommentForm from "../../components/CommentForm/CommentForm";
 import CommentCard from "../../components/CommentCard/CommentCard";
 import './DrinksDetailPage.css'
 
-export default function DrinksDetailPage() {
+export default function DrinksDetailPage({user}) {
     const [drink, setDrink] = useState(null);
     const {idDrink} = useParams();
 
@@ -42,7 +42,7 @@ export default function DrinksDetailPage() {
             </span>
             </div>
             <CommentForm handleAddComment={handleAddComment} />
-            <CommentCard handleDeleteComment={handleDeleteComment} drink={drink} />
+            <CommentCard handleDeleteComment={handleDeleteComment} drink={drink} user={user} />
         </>
     )
 }

@@ -24,7 +24,7 @@ export default function App() {
             <Route path='/mydrinks' element={<MyDrinksPage />} />
             <Route path='/drinks' element={<DrinksList />} />
             <Route path='/random' element={<RandomDrink />} />
-            <Route path='/detail/:idDrink' element={<DrinksDetailPage />} />
+            <Route path='/detail/:idDrink' element={<DrinksDetailPage user={user} />} />
           </Routes>
         </>
         :
