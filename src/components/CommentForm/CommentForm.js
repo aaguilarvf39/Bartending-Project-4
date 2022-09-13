@@ -16,15 +16,15 @@ export default function CommentForm({handleAddComment}) {
         <section>
             <form className='form'
             onSubmit={handleSubmit}
-            >
-                <h2>Comments</h2>
+            ><span>
+                <h2 className='underline'>Comments</h2>
                 <input 
                 name="content"
                 onChange={(evt) => setNewComment(evt.target.value)}
                 value={newComment}
                 type="text"
                 placeholder="Comments" />
-                <h2>Rating</h2>
+                <h2 className='underline'>Rating</h2>
                 <select
                 name="rating"
                 value={rating}
@@ -37,6 +37,7 @@ export default function CommentForm({handleAddComment}) {
                 </select>
                 <br />
                 <button type="submit">Submit Comment</button>
+              </span>
             </form>
         </section>
     )

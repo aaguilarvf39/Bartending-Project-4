@@ -3,13 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0.9vmin solid black;
-    border-radius: 70px;
-    margin: 9vmin;
-    padding: 3vmin;
+    
+    
     color: black;
-    background-color: rgb(145, 143, 143, 0.7);
+    
     text-shadow: 0 0 10px #ffffff, 0 0 15px #6106d1;
+}
+
+.drinkdetail span {
+    background-color: rgb(145, 143, 143, 0.7);
+    border: 0.9vmin solid black;
+    border-radius: 60px;
+    margin: 9vmin;
+    padding: 8vmin;
 }
 
 .form {
@@ -17,11 +23,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0.9vmin solid black;
-    border-radius: 70px;
-    margin: 9vmin;
-    padding: 3vmin;
+   
     color: black;
-    background-color: rgb(145, 143, 143, 0.7);
+    
     text-shadow: 0 0 10px #ffffff, 0 0 15px #6106d1;
+}
+
+.form span {
+    background-color: rgb(145, 143, 143, 0.7);
+    border: 0.6vmin solid lightgray;
+    border-radius: 20px;
+    margin: auto;
+    padding: 6vmin;
+}
+
+.underline {
+    text-decoration: underline;
 }
