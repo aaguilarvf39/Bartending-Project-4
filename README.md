@@ -3,7 +3,7 @@
 :tropical_drink: Cocktails Galore! :tumbler_glass:
 </h1>
 
-<h4>Jesus Aguilar</h4>
+<h2>Jesus Aguilar</h2>
 
 <a href="https://www.linkedin.com/in/jesusaguilarvf39/" target="_blank">
 <img 
@@ -47,8 +47,7 @@ As a logged in user you'll be able to see see a wide variety of cockatils and co
 ![Trello](https://img.shields.io/badge/-Trello-05122A?style=flat&logo=trello)
 ![Canva](https://img.shields.io/badge/-Canva-05122A?style=flat&logo=canva)
 
-<details>
-    <h3>:link: Links</h3>
+### :chains: Links
 <details>
     <summary>Deployed Heroku</summary>
     <a href="https://bartender-cocktails.herokuapp.com/">https://bartender-cocktails.herokuapp.com/</a>
@@ -64,7 +63,7 @@ As a logged in user you'll be able to see see a wide variety of cockatils and co
 -  [ ] Create User Profiles
 -  [ ] ?
 
-## :glasses: Acknowledgements
+## :pinched_fingers: Acknowledgements
 - Mario Recinos
 - Jim Clark
 - SEI 621 Classmates
