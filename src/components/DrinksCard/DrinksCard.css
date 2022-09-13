@@ -1,20 +1,32 @@
 .drinkcard {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 0.9vmin solid rgb(36, 24, 1);
-    border-radius: 70px;
-    margin: 9vmin;
-    padding: 3vmin;
-    color: rebeccapurple;
-    background-color: rgb(145, 143, 143, 0.7);
+    color: black;
     text-shadow: 0 0 10px #ffffff, 0 0 15px #6106d1;
 }
 
+.drinkcard span {
+    border: 0.7vmin solid rebeccapurple;
+    margin: 9vmin;
+    padding: 7vmin;
+    border-radius: 40px;
+    background-color: rgb(145, 143, 143, 0.7);
+}
+
 .heading {
-    color: rgb(11, 7, 1);
-    text-shadow: 0 0 20px #11c40a, 0 0 20px #753b8b;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 10px #ffffff, 0 0 15px #6106d1;
     text-decoration: underline;
-    font-size: 40px;
+    font-size: xxx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading span {
+    background-color: rgb(145, 143, 143, 0.8);
 }

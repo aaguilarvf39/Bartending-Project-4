@@ -5,8 +5,8 @@
 body {
   background-image: url("https://imgur.com/WkpdFD2.jpg");
   background-size: contain;
-  background-position-x: center;
-  padding-top: 3vh;
+  background-repeat: repeat-x;
+  background-position: center;
 }
 
 .App-logo {

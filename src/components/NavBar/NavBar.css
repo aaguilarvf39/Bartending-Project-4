@@ -2,7 +2,7 @@
     background-image: url("https://imgur.com/FtNKTvD.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgba(235, 230, 221, 0.6);
+    background-color: rgba(197, 195, 197, 0.721);
     height: 85px;
     border-radius: 20px;
     border: 4px solid rebeccapurple;
@@ -12,4 +12,5 @@
     align-items: center;
     align-self: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 10px #ffffff, 0 0 15px #6106d1;
 }

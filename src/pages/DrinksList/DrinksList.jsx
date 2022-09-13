@@ -21,7 +21,7 @@ export default function DrinksList() {
 
     return (
         <div>
-            <h1 className='heading'>Alphabetized Cocktail List</h1>
+            <h1 className='heading'><span>Cocktail List</span></h1>
             {drinks.map((d,i) => 
               <><DrinksCard handleDetail={handleDetail} idDrink={d.idDrink} key={i} drink={d} /><>
                 </></>
