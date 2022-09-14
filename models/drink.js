@@ -11,7 +11,6 @@ const commentSchema = new Schema({
     },
     user: {type: Schema.Types.ObjectId, ref: 'User'},
     userName: {type: String},
-    userId: {type: Number},
   }, {
     timestamps: true
   });
@@ -23,7 +22,7 @@ const drinkSchema = new Schema({
     StrInstructions: String,
     comments: [commentSchema],
     ingredients: [{type: String}],
-    user: [{type: Schema.Types.ObjectId, ref: 'User'}],
+    users: [{type: Schema.Types.ObjectId, ref: 'User'}],
   }, {
     timestamps: true,
 })

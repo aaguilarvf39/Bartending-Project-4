@@ -16,7 +16,7 @@
     margin: 9vmin;
     padding: 7vmin;
     border-radius: 40px;
-    background-color: rgb(145, 143, 143, 0.7);
+    background-color: rgb(245, 244, 245, 0.5);
 }
 
 .heading {
@@ -29,4 +29,8 @@
 
 .heading span {
     background-color: rgb(145, 143, 143, 0.8);
+}
+
+.drinklist {
+    background-color: black;
 }

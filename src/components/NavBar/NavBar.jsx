@@ -13,7 +13,7 @@ export default function NavBar({ user, setUser }) {
     <nav className="navbar" style={{color:"black"}}>
       <Link style={{color:"rebeccapurple"}} to='/'>Home</Link>
       &nbsp; | &nbsp;
-      <Link style={{color:"black"}} to='/mydrinks'>My Cocktail List</Link>
+      <Link style={{color:"black"}} to='/shot'>Shot Showcase</Link>
       &nbsp; | &nbsp;
       <Link style={{color:"rebeccapurple"}} to='/drinks'>All Cocktails</Link>
       &nbsp; | &nbsp;

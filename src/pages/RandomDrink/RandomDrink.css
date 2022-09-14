@@ -17,7 +17,10 @@
 }
 
 .gmc {
-    margin-top: 70px;
     text-shadow: 0 0 10px #09ec3a, 0 0 2px #0f2b47;
     font-size: larger;
+}
+
+.h3 {
+    display: inline-block;
 }

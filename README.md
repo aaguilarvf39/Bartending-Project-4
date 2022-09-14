@@ -1,6 +1,6 @@
 <div align="center">
 <h1>
-:tumbler_glass: Cocktails Galore! :tropical_drink:
+:tumbler_glass: Cocktails Galore! :tumbler_glass:
 </h1>
 
 <h2>Jesus Aguilar</h2>
@@ -22,7 +22,7 @@ As a logged in user you'll be able to see see a wide variety of cockatils and co
 ## :zap: Screenshots :zap:
 | Description | Screenshot |
 |------------ | ------------|
-| Home Page | <img src="https://imgur.com/mLkFrJ3.jpg" width="700"> |
+| Shot Showcase | <img src="https://imgur.com/eGWdQYj.jpg" width="700"> |
 | Cocktail List| <img src="https://imgur.com/KfcQf89.jpg" width="700"> |
 | Random Cocktail Generator | <img src="https://imgur.com/ak7O9nW.jpg" width="700"> |
 
@@ -42,7 +42,7 @@ As a logged in user you'll be able to see see a wide variety of cockatils and co
 ![Trello](https://img.shields.io/badge/-Trello-05122A?style=flat&logo=trello)
 ![Canva](https://img.shields.io/badge/-Canva-05122A?style=flat&logo=canva)
 
-### :chains: Links
+### :tropical_drink: Links
 <details>
     <summary>Deployed Heroku</summary>
     <a href="https://bartender-cocktails.herokuapp.com/">https://bartender-cocktails.herokuapp.com/</a>
@@ -55,10 +55,10 @@ As a logged in user you'll be able to see see a wide variety of cockatils and co
 ## :gear: Next Steps
 ### Future Implementations
 -  [ ] Implement update and edit features.
--  [ ] Create User Profiles
--  [ ] ?
+-  [ ] Create Saved Drinks Page for users.
+-  [ ] Search feature to find specific cocktail.
 
 ## :pinched_fingers: Acknowledgements
 - Mario Recinos
-- Jim Clark
 - SEI 621 Classmates
+- Jim Clark

@@ -1,6 +1,6 @@
 .Home {
     height: 500px;
-    margin: 20px;
+    margin: 100px;
 }
 
 .title {
@@ -13,17 +13,9 @@
 }
 
 .title span {
-    background-color: rgba(197, 195, 197, 0.9);
+    background-color: rgba(197, 195, 197, 0.4);
     text-shadow: 0 0 10px #ffffff, 0 0 15px #f5f4f7;
-}
-
-.pic {
-    justify-content: right;
-    align-items: right;
-    align-self: right;
-    height: 500px;
-    width: 440px;
-    margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .gts {
@@ -33,6 +25,7 @@
 }
 
 .gts span {
-    background-color: rgba(197, 195, 197, 0.9);
+    background-color: rgba(197, 195, 197, 0.4);
     text-shadow: 0 0 10px #ffffff, 0 0 15px #f7f6f8;
+    text-decoration: underline;
 }

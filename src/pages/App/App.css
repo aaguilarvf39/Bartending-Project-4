@@ -3,9 +3,10 @@
 }
 
 body {
-  background-image: url("https://imgur.com/WkpdFD2.jpg");
-  background-size: contain;
-  background-repeat: repeat-x;
+  background-image: url("https://imgur.com/YjbDNr2.jpg");
+  background-size: cover;
+  height: 130vh;
+  margin-top: 10px;
   background-position: center;
 }
 
