@@ -45,7 +45,7 @@ As a logged in user you'll be able to see see a wide variety of cockatils and co
 ### :tropical_drink: Links
 <details>
     <summary>Deployed Netlify</summary>
-    <a href="https://bartenderio.netlify.app/">Bartenderio/</a>
+    <a href="cocktailsgalore.netlify.app">Cocktails Galore</a>
 </details>
 <details>
     <summary>Trello</summary>
